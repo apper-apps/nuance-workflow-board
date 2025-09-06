@@ -11,8 +11,9 @@ const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const navigation = [
+const navigation = [
     { name: "Jobs", href: "/", icon: "Briefcase" },
+    { name: "Companies", href: "/companies", icon: "Building2" },
     { name: "Saved Jobs", href: "/saved-jobs", icon: "Heart" },
     { name: "My Applications", href: "/applications", icon: "Send" },
     { name: "Job Alerts", href: "/alerts", icon: "Bell" }

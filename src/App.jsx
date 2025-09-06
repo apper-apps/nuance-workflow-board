@@ -1,11 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Route, Router, Routes } from "react-router-dom";
+import Companies from "@/components/pages/Companies";
+import CompanyProfile from "@/components/pages/CompanyProfile";
 import { ToastContainer } from "react-toastify";
+import React from "react";
 import Header from "@/components/organisms/Header";
-import JobSearch from "@/components/pages/JobSearch";
-import JobDetail from "@/components/pages/JobDetail";
-import SavedJobs from "@/components/pages/SavedJobs";
 import Applications from "@/components/pages/Applications";
+import JobDetail from "@/components/pages/JobDetail";
 import Alerts from "@/components/pages/Alerts";
+import JobSearch from "@/components/pages/JobSearch";
+import SavedJobs from "@/components/pages/SavedJobs";
 
 function App() {
   return (
@@ -18,8 +21,10 @@ function App() {
             <Route path="/" element={<JobSearch />} />
             <Route path="/jobs/:id" element={<JobDetail />} />
             <Route path="/saved-jobs" element={<SavedJobs />} />
-            <Route path="/applications" element={<Applications />} />
+<Route path="/applications" element={<Applications />} />
             <Route path="/alerts" element={<Alerts />} />
+            <Route path="/companies" element={<Companies />} />
+            <Route path="/companies/:id" element={<CompanyProfile />} />
           </Routes>
         </main>
         

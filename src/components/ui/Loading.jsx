@@ -124,6 +124,41 @@ const Loading = ({ type = "jobs" }) => {
     );
   }
 
+if (type === "companies") {
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        className="animate-pulse grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 p-6"
+      >
+        {[...Array(6)].map((_, index) => (
+          <div key={index} className="card p-6 space-y-4">
+            <div className="flex items-start gap-4">
+              <div className="w-16 h-16 bg-gray-200 rounded-lg animate-pulse"></div>
+              <div className="space-y-2 flex-1">
+                <div className="h-6 bg-gray-200 rounded animate-pulse w-3/4"></div>
+                <div className="h-4 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                <div className="flex gap-2">
+                  <div className="h-6 bg-gray-200 rounded-full animate-pulse w-16"></div>
+                  <div className="h-6 bg-gray-200 rounded-full animate-pulse w-20"></div>
+                </div>
+              </div>
+            </div>
+            <div className="space-y-2">
+              <div className="h-4 bg-gray-200 rounded animate-pulse w-full"></div>
+              <div className="h-4 bg-gray-200 rounded animate-pulse w-4/5"></div>
+              <div className="h-4 bg-gray-200 rounded animate-pulse w-3/5"></div>
+            </div>
+            <div className="flex justify-between items-center pt-4 border-t border-gray-100">
+              <div className="h-4 bg-gray-200 rounded animate-pulse w-32"></div>
+              <div className="h-10 bg-gray-200 rounded animate-pulse w-24"></div>
+            </div>
+          </div>
+        ))}
+      </motion.div>
+    );
+  }
+
   if (type === "saved-jobs") {
     return (
       <motion.div

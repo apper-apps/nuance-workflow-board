@@ -105,9 +105,17 @@ const JobCard = ({ job, isSaved = false, onSavedChange, showSaveButton = true })
             <h3 className="text-xl font-semibold text-gray-900 mb-1 truncate">
               {job.title}
             </h3>
-            <div className="flex items-center gap-2 text-gray-600">
+<div className="flex items-center gap-2 text-gray-600">
               <ApperIcon name="Building2" size={16} />
-              <span className="font-medium">{job.company}</span>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  navigate(`/companies?search=${encodeURIComponent(job.company)}`);
+                }}
+                className="font-medium hover:text-primary-600 transition-colors duration-200"
+              >
+                {job.company}
+              </button>
             </div>
             <div className="flex items-center gap-2 text-gray-600 mt-1">
               <ApperIcon name="MapPin" size={16} />

@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "TechFlow Inc",
+    "description": "TechFlow Inc is a leading technology company specializing in cutting-edge web applications and digital solutions. We're passionate about creating innovative products that make a difference in people's lives. Our team of talented engineers and designers work collaboratively to deliver high-quality software solutions for clients worldwide.",
+    "location": "San Francisco, CA",
+    "size": "Medium",
+    "employees": "150-300",
+    "founded": "2015",
+    "website": "https://techflow.com",
+    "industry": ["Technology", "Software", "Web Development"],
+    "logo": "TF"
+  },
+  {
+    "Id": 2,
+    "name": "InnovateLab",
+    "description": "InnovateLab is a creative design studio focused on user experience and product design. We help businesses transform their digital presence through thoughtful design and user-centered approaches. Our multidisciplinary team combines strategy, design, and technology to create meaningful experiences.",
+    "location": "New York, NY",
+    "size": "Small",
+    "employees": "50-100",
+    "founded": "2018",
+    "website": "https://innovatelab.com",
+    "industry": ["Design", "UX/UI", "Creative Services"],
+    "logo": "IL"
+  },
+  {
+    "Id": 3,
+    "name": "StartupVenture",
+    "description": "StartupVenture is an ambitious early-stage startup building the next generation of collaborative platforms. We're a fast-growing team of entrepreneurs and engineers working to revolutionize how teams work together. Join us in creating something extraordinary from the ground up.",
+    "location": "Austin, TX",
+    "size": "Startup",
+    "employees": "10-50",
+    "founded": "2022",
+    "website": "https://startupventure.com",
+    "industry": ["Startup", "SaaS", "Collaboration"],
+    "logo": "SV"
+  },
+  {
+    "Id": 4,
+    "name": "CloudScale Solutions",
+    "description": "CloudScale Solutions is a leading cloud infrastructure and DevOps consulting firm. We help organizations scale their operations through robust cloud architectures and automated deployment pipelines. Our expertise spans AWS, Azure, and Google Cloud platforms with a focus on reliability and performance.",
+    "location": "Seattle, WA",
+    "size": "Large",
+    "employees": "500-1000",
+    "founded": "2012",
+    "website": "https://cloudscale.com",
+    "industry": ["Cloud Computing", "DevOps", "Infrastructure"],
+    "logo": "CS"
+  },
+  {
+    "Id": 5,
+    "name": "Analytics Pro",
+    "description": "Analytics Pro is a data science and analytics company that helps businesses unlock insights from their data. We specialize in machine learning, predictive analytics, and business intelligence solutions. Our team of data scientists and engineers work with cutting-edge technologies to deliver actionable insights.",
+    "location": "Boston, MA",
+    "size": "Medium",
+    "employees": "200-400",
+    "founded": "2016",
+    "website": "https://analyticspro.com",
+    "industry": ["Data Science", "Analytics", "Machine Learning"],
+    "logo": "AP"
+  },
+  {
+    "Id": 6,
+    "name": "BrandBoost",
+    "description": "BrandBoost is a full-service digital marketing agency specializing in brand strategy, content marketing, and digital campaigns. We help businesses grow their online presence and connect with their target audiences through creative and data-driven marketing strategies.",
+    "location": "Los Angeles, CA",
+    "size": "Medium",
+    "employees": "100-250",
+    "founded": "2017",
+    "website": "https://brandboost.com",
+    "industry": ["Marketing", "Advertising", "Digital Strategy"],
+    "logo": "BB"
+  },
+  {
+    "Id": 7,
+    "name": "ServerTech",
+    "description": "ServerTech is a specialized backend development and system architecture firm. We build robust, scalable server-side solutions for high-traffic applications. Our team of senior engineers has expertise in microservices, distributed systems, and high-performance computing.",
+    "location": "Chicago, IL",
+    "size": "Small",
+    "employees": "30-80",
+    "founded": "2019",
+    "website": "https://servertech.com",
+    "industry": ["Backend Development", "System Architecture", "API Development"],
+    "logo": "ST"
+  },
+  {
+    "Id": 8,
+    "name": "UserFirst Design",
+    "description": "UserFirst Design is a UX research and design consultancy focused on creating user-centered digital experiences. We conduct in-depth user research, usability testing, and design validation to ensure products truly meet user needs. Our evidence-based approach helps companies make informed design decisions.",
+    "location": "Portland, OR",
+    "size": "Small",
+    "employees": "20-50",
+    "founded": "2020",
+    "website": "https://userfirst.com",
+    "industry": ["UX Research", "User Testing", "Design Consulting"],
+    "logo": "UF"
+  },
+  {
+    "Id": 9,
+    "name": "AppCrafters",
+    "description": "AppCrafters is a mobile development studio creating innovative iOS and Android applications. We specialize in cross-platform development using React Native and Flutter, helping businesses reach their mobile audiences with high-quality, performant applications.",
+    "location": "Miami, FL",
+    "size": "Small",
+    "employees": "25-60",
+    "founded": "2021",
+    "website": "https://appcrafters.com",
+    "industry": ["Mobile Development", "App Design", "Cross-platform"],
+    "logo": "AC"
+  },
+  {
+    "Id": 10,
+    "name": "Agile Solutions",
+    "description": "Agile Solutions is a project management and consulting firm specializing in Agile methodologies and digital transformation. We help organizations optimize their development processes, improve team collaboration, and deliver projects more efficiently using proven Agile and Scrum practices.",
+    "location": "Denver, CO",
+    "size": "Medium",
+    "employees": "150-350",
+    "founded": "2014",
+    "website": "https://agilesolutions.com",
+    "industry": ["Project Management", "Agile Consulting", "Digital Transformation"],
+    "logo": "AS"
+  }
+]

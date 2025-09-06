@@ -1,3 +1,4 @@
+import companyService from "@/services/api/companyService";
 import jobsData from "@/services/mockData/jobs.json";
 
 // Simulate API delay for realistic loading states
@@ -8,6 +9,15 @@ class JobService {
     this.jobs = [...jobsData];
   }
 
+  async getByCompany(companyId) {
+    await delay(200);
+    try {
+      const company = await companyService.getById(companyId);
+      return this.jobs.filter(job => job.company === company.name);
+    } catch (error) {
+      throw new Error(`Failed to get jobs for company ID ${companyId}: ${error.message}`);
+    }
+  }
   async getAll(filters = {}) {
     await delay(300);
     
@@ -101,7 +111,7 @@ class JobService {
     return filteredJobs;
   }
 
-  async getById(id) {
+async getById(id) {
     await delay(200);
     const job = this.jobs.find(job => job.Id === parseInt(id));
     if (!job) {
@@ -110,7 +120,7 @@ class JobService {
     return { ...job };
   }
 
-  async getPopular(limit = 6) {
+async getPopular(limit = 6) {
     await delay(250);
     // Return jobs with higher salary ranges as "popular"
     const sortedJobs = [...this.jobs].sort((a, b) => b.salary.max - a.salary.max);
@@ -151,8 +161,7 @@ class JobService {
         }
       });
     });
-    
-    return Array.from(suggestions).slice(0, 8);
+return Array.from(suggestions).slice(0, 8);
   }
 }
 

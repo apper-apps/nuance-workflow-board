@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import JobCard from "@/components/molecules/JobCard";
+import companyService from "@/services/api/companyService";
 import Loading from "@/components/ui/Loading";
 import Error from "@/components/ui/Error";
 import Empty from "@/components/ui/Empty";
@@ -108,7 +109,7 @@ const JobList = ({ filters = {}, searchQuery = "" }) => {
 
   return (
     <div className="space-y-6">
-      {/* Results Header */}
+{/* Results Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 p-6 bg-white rounded-lg shadow-card border border-gray-100">
         <div>
           <h2 className="text-xl font-semibold text-gray-900">
@@ -119,23 +120,34 @@ const JobList = ({ filters = {}, searchQuery = "" }) => {
           </p>
         </div>
         
-        {/* Sort Options */}
-        <div className="flex items-center gap-2">
-          <span className="text-sm text-gray-600">Sort by:</span>
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
-            className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+        {/* View and Sort Options */}
+        <div className="flex items-center gap-4">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => window.location.href = '/companies'}
+            icon="Building2"
+            className="text-sm"
           >
-            {getSortOptions().map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+            View by Companies
+          </Button>
+          
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-gray-600">Sort by:</span>
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value)}
+              className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+            >
+              {getSortOptions().map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
-
       {/* Job Cards */}
       <div className="space-y-4">
         <AnimatePresence mode="wait">
