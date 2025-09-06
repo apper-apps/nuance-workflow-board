@@ -1,0 +1,322 @@
+[
+  {
+    "Id": 1,
+    "title": "Senior Frontend Developer",
+    "company": "TechFlow Inc",
+    "location": "San Francisco, CA",
+    "type": "Full-time",
+    "experienceLevel": "Senior",
+    "salary": {
+      "min": 130000,
+      "max": 170000,
+      "currency": "USD"
+    },
+    "description": "We are seeking an experienced Senior Frontend Developer to join our dynamic team. You will be responsible for developing and maintaining high-quality web applications using modern React technologies. This role offers the opportunity to work on cutting-edge projects and mentor junior developers.",
+    "requirements": [
+      "5+ years of experience with React and JavaScript",
+      "Strong knowledge of TypeScript and modern CSS",
+      "Experience with state management libraries (Redux, Zustand)",
+      "Familiarity with testing frameworks (Jest, React Testing Library)",
+      "Experience with modern build tools and CI/CD processes"
+    ],
+    "benefits": [
+      "Competitive salary and equity package",
+      "Health, dental, and vision insurance",
+      "401(k) matching",
+      "Flexible work hours and remote options",
+      "Professional development budget"
+    ],
+    "postedDate": "2024-01-15T10:30:00Z",
+    "applicationDeadline": "2024-02-15T23:59:59Z",
+    "remote": true,
+    "tags": ["React", "TypeScript", "Frontend", "Remote"]
+  },
+  {
+    "Id": 2,
+    "title": "Product Designer",
+    "company": "InnovateLab",
+    "location": "New York, NY",
+    "type": "Full-time",
+    "experienceLevel": "Mid-level",
+    "salary": {
+      "min": 95000,
+      "max": 125000,
+      "currency": "USD"
+    },
+    "description": "Join our design team as a Product Designer where you'll create intuitive and beautiful user experiences. You'll work closely with product managers and engineers to design solutions that delight our users and drive business growth.",
+    "requirements": [
+      "3+ years of product design experience",
+      "Proficiency in Figma and design systems",
+      "Strong understanding of user experience principles",
+      "Experience with user research and testing",
+      "Portfolio showcasing end-to-end design process"
+    ],
+    "benefits": [
+      "Competitive salary package",
+      "Comprehensive health benefits",
+      "Stock options",
+      "Design conference attendance budget",
+      "Flexible PTO policy"
+    ],
+    "postedDate": "2024-01-14T14:20:00Z",
+    "applicationDeadline": "2024-02-14T23:59:59Z",
+    "remote": false,
+    "tags": ["Design", "UX", "Figma", "Product"]
+  },
+  {
+    "Id": 3,
+    "title": "Full Stack Developer",
+    "company": "StartupVenture",
+    "location": "Austin, TX",
+    "type": "Full-time",
+    "experienceLevel": "Junior",
+    "salary": {
+      "min": 70000,
+      "max": 90000,
+      "currency": "USD"
+    },
+    "description": "We're looking for an ambitious Full Stack Developer to help build our next-generation platform. This is a great opportunity for a junior developer to grow their skills in a fast-paced startup environment with mentorship from senior engineers.",
+    "requirements": [
+      "1-3 years of web development experience",
+      "Knowledge of React and Node.js",
+      "Basic understanding of databases (PostgreSQL preferred)",
+      "Familiarity with Git version control",
+      "Strong problem-solving skills"
+    ],
+    "benefits": [
+      "Competitive starting salary",
+      "Health and dental insurance",
+      "Learning and development opportunities",
+      "Startup equity package",
+      "Casual work environment"
+    ],
+    "postedDate": "2024-01-13T09:15:00Z",
+    "applicationDeadline": "2024-02-13T23:59:59Z",
+    "remote": true,
+    "tags": ["Full Stack", "React", "Node.js", "Startup"]
+  },
+  {
+    "Id": 4,
+    "title": "DevOps Engineer",
+    "company": "CloudScale Solutions",
+    "location": "Seattle, WA",
+    "type": "Full-time",
+    "experienceLevel": "Senior",
+    "salary": {
+      "min": 140000,
+      "max": 180000,
+      "currency": "USD"
+    },
+    "description": "Join our infrastructure team as a Senior DevOps Engineer. You'll be responsible for designing and maintaining scalable cloud infrastructure, implementing CI/CD pipelines, and ensuring high availability of our services.",
+    "requirements": [
+      "5+ years of DevOps/Infrastructure experience",
+      "Expertise with AWS or Azure cloud platforms",
+      "Strong knowledge of containerization (Docker, Kubernetes)",
+      "Experience with Infrastructure as Code (Terraform, CloudFormation)",
+      "Proficiency in scripting languages (Python, Bash)"
+    ],
+    "benefits": [
+      "Top-tier compensation package",
+      "Premium health benefits",
+      "401(k) with company matching",
+      "Annual tech conference budget",
+      "Remote work flexibility"
+    ],
+    "postedDate": "2024-01-12T16:45:00Z",
+    "applicationDeadline": "2024-02-12T23:59:59Z",
+    "remote": true,
+    "tags": ["DevOps", "AWS", "Kubernetes", "Remote"]
+  },
+  {
+    "Id": 5,
+    "title": "Data Scientist",
+    "company": "Analytics Pro",
+    "location": "Boston, MA",
+    "type": "Full-time",
+    "experienceLevel": "Mid-level",
+    "salary": {
+      "min": 110000,
+      "max": 140000,
+      "currency": "USD"
+    },
+    "description": "We're seeking a talented Data Scientist to join our analytics team. You'll work on exciting machine learning projects, analyze complex datasets, and help drive data-driven decisions across the organization.",
+    "requirements": [
+      "3+ years of data science experience",
+      "Strong proficiency in Python and SQL",
+      "Experience with machine learning libraries (scikit-learn, pandas)",
+      "Knowledge of statistical analysis and modeling",
+      "Experience with data visualization tools"
+    ],
+    "benefits": [
+      "Competitive salary and bonuses",
+      "Comprehensive healthcare coverage",
+      "Professional development opportunities",
+      "Flexible work arrangements",
+      "Stock option program"
+    ],
+    "postedDate": "2024-01-11T11:30:00Z",
+    "applicationDeadline": "2024-02-11T23:59:59Z",
+    "remote": false,
+    "tags": ["Data Science", "Python", "Machine Learning", "Analytics"]
+  },
+  {
+    "Id": 6,
+    "title": "Marketing Manager",
+    "company": "BrandBoost",
+    "location": "Los Angeles, CA",
+    "type": "Full-time",
+    "experienceLevel": "Mid-level",
+    "salary": {
+      "min": 85000,
+      "max": 115000,
+      "currency": "USD"
+    },
+    "description": "Lead our marketing initiatives as a Marketing Manager. You'll develop and execute marketing strategies, manage campaigns across multiple channels, and work with cross-functional teams to drive growth and brand awareness.",
+    "requirements": [
+      "4+ years of marketing experience",
+      "Experience with digital marketing channels",
+      "Strong analytical and project management skills",
+      "Knowledge of marketing automation tools",
+      "Excellent written and verbal communication"
+    ],
+    "benefits": [
+      "Competitive base salary",
+      "Performance-based bonuses",
+      "Health and wellness benefits",
+      "Marketing conference attendance",
+      "Flexible work schedule"
+    ],
+    "postedDate": "2024-01-10T13:20:00Z",
+    "applicationDeadline": "2024-02-10T23:59:59Z",
+    "remote": true,
+    "tags": ["Marketing", "Digital Marketing", "Campaign Management", "Remote"]
+  },
+  {
+    "Id": 7,
+    "title": "Backend Engineer",
+    "company": "ServerTech",
+    "location": "Chicago, IL",
+    "type": "Contract",
+    "experienceLevel": "Senior",
+    "salary": {
+      "min": 85,
+      "max": 120,
+      "currency": "USD"
+    },
+    "description": "We need an experienced Backend Engineer for a 6-month contract to help build our new API infrastructure. You'll work with cutting-edge technologies and contribute to high-performance, scalable systems.",
+    "requirements": [
+      "5+ years of backend development experience",
+      "Expertise in Go, Python, or Java",
+      "Strong knowledge of database design and optimization",
+      "Experience with microservices architecture",
+      "Familiarity with message queues and caching systems"
+    ],
+    "benefits": [
+      "Competitive hourly rate",
+      "Flexible contract terms",
+      "Remote work options",
+      "Potential for full-time conversion",
+      "Access to modern development tools"
+    ],
+    "postedDate": "2024-01-09T08:45:00Z",
+    "applicationDeadline": "2024-02-09T23:59:59Z",
+    "remote": true,
+    "tags": ["Backend", "API", "Microservices", "Contract"]
+  },
+  {
+    "Id": 8,
+    "title": "UX Researcher",
+    "company": "UserFirst Design",
+    "location": "Portland, OR",
+    "type": "Part-time",
+    "experienceLevel": "Mid-level",
+    "salary": {
+      "min": 45000,
+      "max": 65000,
+      "currency": "USD"
+    },
+    "description": "Join our UX team as a part-time UX Researcher. You'll conduct user research studies, analyze user behavior, and provide insights that inform product design decisions. Perfect for someone looking for work-life balance.",
+    "requirements": [
+      "3+ years of UX research experience",
+      "Experience with various research methodologies",
+      "Strong analytical and presentation skills",
+      "Proficiency with research tools and software",
+      "Ability to translate research into actionable insights"
+    ],
+    "benefits": [
+      "Flexible part-time schedule",
+      "Hourly rate commensurate with experience",
+      "Health insurance contribution",
+      "Professional development support",
+      "Collaborative remote-friendly team"
+    ],
+    "postedDate": "2024-01-08T15:10:00Z",
+    "applicationDeadline": "2024-02-08T23:59:59Z",
+    "remote": true,
+    "tags": ["UX Research", "User Research", "Part-time", "Remote"]
+  },
+  {
+    "Id": 9,
+    "title": "Mobile Developer",
+    "company": "AppCrafters",
+    "location": "Miami, FL",
+    "type": "Full-time",
+    "experienceLevel": "Junior",
+    "salary": {
+      "min": 75000,
+      "max": 95000,
+      "currency": "USD"
+    },
+    "description": "We're looking for an enthusiastic Mobile Developer to join our team building innovative mobile applications. You'll work on both iOS and Android projects using modern frameworks and collaborate with designers and product managers.",
+    "requirements": [
+      "1-3 years of mobile development experience",
+      "Knowledge of React Native or Flutter",
+      "Understanding of mobile app deployment processes",
+      "Familiarity with mobile UI/UX best practices",
+      "Strong debugging and problem-solving skills"
+    ],
+    "benefits": [
+      "Competitive entry-level salary",
+      "Comprehensive benefits package",
+      "Mentorship from senior developers",
+      "Latest mobile development tools",
+      "Career growth opportunities"
+    ],
+    "postedDate": "2024-01-07T12:00:00Z",
+    "applicationDeadline": "2024-02-07T23:59:59Z",
+    "remote": false,
+    "tags": ["Mobile", "React Native", "iOS", "Android"]
+  },
+  {
+    "Id": 10,
+    "title": "Project Manager",
+    "company": "Agile Solutions",
+    "location": "Denver, CO",
+    "type": "Full-time",
+    "experienceLevel": "Senior",
+    "salary": {
+      "min": 100000,
+      "max": 130000,
+      "currency": "USD"
+    },
+    "description": "Lead complex technology projects as a Senior Project Manager. You'll coordinate cross-functional teams, manage project timelines and budgets, and ensure successful delivery of software solutions using Agile methodologies.",
+    "requirements": [
+      "5+ years of project management experience",
+      "PMP or Scrum Master certification preferred",
+      "Experience managing software development projects",
+      "Strong leadership and communication skills",
+      "Proficiency with project management tools"
+    ],
+    "benefits": [
+      "Excellent salary and bonus structure",
+      "Full benefits package",
+      "Professional certification support",
+      "Leadership development programs",
+      "Flexible work arrangements"
+    ],
+    "postedDate": "2024-01-06T10:15:00Z",
+    "applicationDeadline": "2024-02-06T23:59:59Z",
+    "remote": true,
+    "tags": ["Project Management", "Agile", "Leadership", "Remote"]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "jobId": 1,
+    "savedDate": "2024-01-16T14:30:00Z",
+    "notes": "Great company culture and remote work options. Need to prepare React portfolio examples."
+  },
+  {
+    "Id": 2,
+    "jobId": 4,
+    "savedDate": "2024-01-15T09:20:00Z",
+    "notes": "Perfect match for my AWS experience. High salary range is attractive."
+  },
+  {
+    "Id": 3,
+    "jobId": 7,
+    "savedDate": "2024-01-14T16:45:00Z",
+    "notes": "Contract position but good hourly rate. Could be a stepping stone."
+  }
+]
